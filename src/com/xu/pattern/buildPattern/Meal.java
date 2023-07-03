@@ -24,9 +24,9 @@ public class Meal {
 
     public void showItems(){
         for (Item item : items) {
-            System.out.print("Item : "+item.name());
-            System.out.print(", Packing : "+item.packing().pack());
-            System.out.println(", Price : "+item.price());
+            System.out.print("项目 : "+item.name());
+            System.out.print(", 包 : "+item.packing().pack());
+            System.out.println(", 价格 : "+item.price());
         }
     }
 }

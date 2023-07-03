@@ -13,6 +13,6 @@ public class Pepsi extends ColdDrink {
 
     @Override
     public String name() {
-        return "Pepsi";
+        return "百事可乐";
     }
 }

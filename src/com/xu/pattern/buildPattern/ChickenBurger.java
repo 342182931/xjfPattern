@@ -13,6 +13,6 @@ public class ChickenBurger extends Burger {
 
     @Override
     public String name() {
-        return "Chicken Burger";
+        return "鸡肉汉堡";
     }
 }

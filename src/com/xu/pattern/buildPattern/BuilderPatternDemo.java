@@ -12,13 +12,13 @@ public class BuilderPatternDemo {
         MealBuilder mealBuilder = new MealBuilder();
 
         Meal vegMeal = mealBuilder.prepareVegMeal();
-        System.out.println("Veg Meal");
+        System.out.println("素食套餐");
         vegMeal.showItems();
-        System.out.println("Total Cost: " +vegMeal.getCost());
+        System.out.println("合计: " +vegMeal.getCost());
 
         Meal nonVegMeal = mealBuilder.prepareNonVegMeal();
-        System.out.println("\n\nNon-Veg Meal");
+        System.out.println("\n\n肉食套餐");
         nonVegMeal.showItems();
-        System.out.println("Total Cost: " +nonVegMeal.getCost());
+        System.out.println("合计: " +nonVegMeal.getCost());
     }
 }
