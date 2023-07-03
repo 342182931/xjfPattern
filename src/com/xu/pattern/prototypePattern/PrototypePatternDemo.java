@@ -11,10 +11,13 @@ public class PrototypePatternDemo {
         ShapeCache.loadCache();
 
         Shape clonedShape = (Shape) ShapeCache.getShape("1");
-        System.out.println("Shape : " + clonedShape.getType());
+        System.out.println("Shape : " + clonedShape.getType() + clonedShape);
+
+        Shape clonedShape4 = (Shape) ShapeCache.getShape("1");
+        System.out.println("clonedShape4 : " + clonedShape4.getType() + clonedShape4);
 
         Shape clonedShape2 = (Shape) ShapeCache.getShape("2");
-        System.out.println("Shape : " + clonedShape2.getType());
+        System.out.println("Shape : " + clonedShape2.getType() + clonedShape2);
 
         Shape clonedShape3 = (Shape) ShapeCache.getShape("3");
         System.out.println("Shape : " + clonedShape3.getType());
